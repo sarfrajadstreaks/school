@@ -1,0 +1,10 @@
+.left-sider {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-row-gap: 2px;
+  height: 100%;
+  width: 79%;
+  overflow: scroll;
+  margin-left: 2px;
+}

@@ -1,13 +1,23 @@
+:root {
+  --buttonActiveColor: #f9b4ab;
+  --buttonAtiveTextColor: #ffff;
+  --buttonDeactiveColor: #fef0ee;
+  --buttonDeactiveTextColor: var(--buttonActiveColor);
+  --cardColor: #fff;
+  --bodyColor: #eaf0f4;
+  --containerBgColor: rgb(187, 212, 206);
+  --textColor: #000;
+}
 body {
+  background-color: red;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
